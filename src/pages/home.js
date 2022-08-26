@@ -21,8 +21,7 @@ const HomePage = () => {
     const [firstPerson, setFirstPerson] = useState("");
     const [secondPerson, setSecondPerson] = useState("");
     const [displayResult, setDisplayResult] = useState("");
-    const [isAddPeopleModalVisible, setIsAddPeopleModalVisible] =
-        useState(false);
+    const [isAddPeopleModalVisible, setIsAddPeopleModalVisible] = useState(false);
     const [newPerson, setNewPerson] = useState("");
     const [newPersonRelations, setNewPersonRelations] = useState("");
 
